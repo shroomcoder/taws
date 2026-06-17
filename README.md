@@ -3,10 +3,22 @@
 A lightweight, self-managing local web development environment for Android built on Termux.
 
 [![Go Version](https://img.shields.io/badge/Go-1.24+-00ADD8?logo=go&logoColor=white)](https://go.dev)
-[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-Android%20%7C%20Linux-lightgrey)](#installation)
+[![License](https://img.shields.io/badge/License-MIT-blue)](https://github.com/shroomcoder/taws/blob/main/LICENSE)
+[![GitHub Release](https://img.shields.io/github/v/release/shroomcoder/taws?logo=github)](https://github.com/shroomcoder/taws/releases)
+[![Platform](https://img.shields.io/badge/platform-Android%20%7C%20Linux%20%7C%20macOS-lightgrey)](#installation)
 
 ## Overview
+
+## Quick Download
+
+Download the latest release for your platform:
+
+| Platform | Architecture | Download |
+|----------|--------------|----------|
+| Android (Termux) | ARM64 | [taws-linux-arm64](https://github.com/shroomcoder/taws/releases/latest/download/taws-linux-arm64) |
+| Linux | x86_64 | [taws-linux-amd64](https://github.com/shroomcoder/taws/releases/latest/download/taws-linux-amd64) |
+| macOS | Apple Silicon | [taws-darwin-arm64](https://github.com/shroomcoder/taws/releases/latest/download/taws-darwin-arm64) |
+| macOS | Intel | [taws-darwin-amd64](https://github.com/shroomcoder/taws/releases/latest/download/taws-darwin-amd64) |
 
 ## Table of Contents
 
@@ -536,7 +548,7 @@ A: Run `taws doctor` for diagnostics.
 
 ## License
 
-MIT License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
