@@ -58,7 +58,7 @@ TAWS can be installed on Termux (Android) or standard Linux distributions.
 pkg update && pkg upgrade
 
 # Download and install TAWS
-wget https://github.com/mnxhh/taws/releases/latest/download/taws-linux-arm64
+wget https://github.com/shroomcoder/taws/releases/latest/download/taws-linux-arm64
 chmod +x taws-linux-arm64
 mv taws-linux-arm64 $PREFIX/bin/taws
 
@@ -81,7 +81,7 @@ sudo apt update
 sudo apt install -y golang git make gcc nginx php php-fpm php-mysql mariadb-server
 
 # Clone and build
-git clone https://github.com/mnxhh/taws.git
+git clone https://github.com/shroomcoder/taws.git
 cd taws
 go build -o taws ./cmd/taws
 
@@ -101,7 +101,7 @@ go build -o taws ./cmd/taws
 sudo dnf install -y golang git make gcc nginx php php-fpm php-mysqlnd mariadb-server
 
 # Clone and build
-git clone https://github.com/mnxhh/taws.git
+git clone https://github.com/shroomcoder/taws.git
 cd taws
 go build -o taws ./cmd/taws
 
@@ -121,7 +121,7 @@ go build -o taws ./cmd/taws
 sudo pacman -S go git make gcc nginx php php-fpm mariadb
 
 # Clone and build
-git clone https://github.com/mnxhh/taws.git
+git clone https://github.com/shroomcoder/taws.git
 cd taws
 go build -o taws ./cmd/taws
 
@@ -144,7 +144,7 @@ sudo apt update
 sudo apt install -y golang git make gcc nginx php php-fpm php-mysql mariadb-server
 
 # Clone and build
-git clone https://github.com/mnxhh/taws.git
+git clone https://github.com/shroomcoder/taws.git
 cd taws
 go build -o taws ./cmd/taws
 
@@ -158,7 +158,7 @@ go build -o taws ./cmd/taws
 
 ```bash
 # Clone the repository
-git clone https://github.com/mnxhh/taws.git
+git clone https://github.com/shroomcoder/taws.git
 cd taws
 
 # Build from source
